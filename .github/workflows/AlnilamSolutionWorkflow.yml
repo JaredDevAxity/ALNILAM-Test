@@ -8,9 +8,8 @@ on:
 
 jobs:
   Build-ALNILAM:
-    uses: Axitymx/AR_26_A_ARCHERNAR_CI-CD/ghActions/.github/workflows/solution.yml@*
+    uses: Axitymx/AR_26_A_ARCHERNAR_CI-CD/ghActions/.github/workflows/solution.yml@features/action
     with: 
       node-version: '16'
       java-version: '11' 
-      token: ${{ github.token }} 
     secrets: inherit
