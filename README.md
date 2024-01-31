@@ -1,3 +1,5 @@
+[![Java SpringBoot CI](https://github.com/JaredDevAxity/ALNILAM-Test/actions/workflows/AlnilamSolutionWorkflow.yml/badge.svg)](https://github.com/JaredDevAxity/ALNILAM-Test/actions/workflows/AlnilamSolutionWorkflow.yml)
+
 # ALNILAM
 
 ALNILAM es un arquetipo que fue generado sin lógica de negocio por lo que puede aplicarse en cualquier escenario donde se necesite un microservicio backend con Java y Springboot.
