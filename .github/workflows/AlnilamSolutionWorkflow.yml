@@ -1,0 +1,15 @@
+name: Angular CI
+run-name: Construyendo TITAN
+
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  Build-TITAN:
+    uses: JaredDevAxity/AR_26_A_ARCHERNAR_ACTIONS/.github/workflows/compileTitan.yml@main
+    with: 
+      node-version: '16'
+      projectKey: 'Test_CREA_Sonar_Archernar'
+    secrets: inherit
