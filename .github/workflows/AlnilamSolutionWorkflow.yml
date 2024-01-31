@@ -1,5 +1,5 @@
-name: Angular CI
-run-name: Construyendo TITAN
+name: Java SpringBoot CI
+run-name: Construyendo ALNILAM
 
 on:
   push:
