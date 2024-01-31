@@ -4,12 +4,12 @@ run-name: Construyendo ALNILAM
 on:
   push:
     branches: 
-      - master
+      - main
 
 jobs:
   Build-ALNILAM:
-    uses: JaredDevAxity/AR_26_A_ARCHERNAR_ACTIONS/.github/workflows/compileTitan.yml@main
+    uses: JaredDevAxity/AR_26_A_ARCHERNAR_ACTIONS/.github/workflows/compileALNILAM.yml@main
     with: 
       node-version: '16'
-      projectKey: 'Test_CREA_Sonar_Archernar'
+      java-version: '11'
     secrets: inherit
