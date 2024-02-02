@@ -8,7 +8,7 @@ on:
 
 jobs:
   ALNILAM:
-    uses: JaredDevAxity/AR_26_A_ARCHERNAR_ACTIONS/.github/workflows/compileALNILAM.yml@main  
+    uses: hurtos10/AR_26_A_ARCHERNAR_CI-CD-PERSONAL/ghActions/.github/workflows/solution.yml@features/actions
     with:  
       node-version: '18'   
       java-version: '11'
