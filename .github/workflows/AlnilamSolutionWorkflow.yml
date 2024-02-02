@@ -14,4 +14,4 @@ jobs:
       java-version: '11'  
       path-base: '.'
       name-service: 'office'
-    secrets: inherit       
+    secrets: inherit        
