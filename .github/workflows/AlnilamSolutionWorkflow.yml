@@ -14,4 +14,4 @@ jobs:
       java-version: '11'  
       username-docker: jareddevaxity
       password-docker: dckr_pat_nrxQu2vh6ocvyf66B4mcKzZgMbc
-    secrets: inherit    
+    secrets: inherit     
