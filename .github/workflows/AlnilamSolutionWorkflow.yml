@@ -8,10 +8,8 @@ on:
 
 jobs:
   ALNILAM:
-    uses: hurtos10/AR_26_A_ARCHERNAR_CI-CD-PERSONAL/.github/workflows/solution.yml@features/actions
+    uses: JaredDevAxity/AR_26_A_ARCHERNAR_ACTIONS/.github/workflows/compileALNILAM.yml@main
     with:  
       node-version: '18'   
       java-version: '11'  
-      username-docker: jareddevaxity
-      password-docker: dckr_pat_nrxQu2vh6ocvyf66B4mcKzZgMbc
     secrets: inherit     
