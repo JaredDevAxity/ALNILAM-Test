@@ -12,4 +12,6 @@ jobs:
     with:  
       node-version: '18'   
       java-version: '11'  
+      username-docker: ${{ secrets.DOCKERHUB_USERNAME }}
+      password-docker: ${{ secrets.DOCKERHUB_TOKEN }}
     secrets: inherit    
