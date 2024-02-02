@@ -12,5 +12,5 @@ jobs:
     with:   
       node-version: '18'   
       java-version: '11'  
-      path-basse: '.'
+      path-base: '.'
     secrets: inherit       
