@@ -13,5 +13,5 @@ jobs:
       node-version: '18'   
       java-version: '11'  
       path-base: '.'
-      name-service: 'office' 
+      name-service: 'office'  
     secrets: inherit        
